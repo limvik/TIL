@@ -18,9 +18,14 @@
 ### Categories
 
 - [JUnit](#junit)
+- [Spring](#spring)
 
 ---
 
 ### JUnit
 
 - [JUnit 을 이용한 테스트 시 추가 정보 출력을 위한 Gradle 설정 방법](./info/JUnit/JUnit%20을%20이용한%20테스트%20시%20추가%20정보%20출력을%20위한%20Gradle%20설정%20방법.md)
+
+### Spring
+
+- [Spring @WebMvcTest 응답 한글 깨짐 현상 해결방법](./info/Spring/Spring%20@WebMvcTest%20응답%20한글%20깨짐%20현상%20해결방법.md)
