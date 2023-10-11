@@ -18,6 +18,7 @@
 ### Categories
 
 - [JUnit](#junit)
+- [Mockito](#mockito)
 - [Spring](#spring)
 
 ---
@@ -25,6 +26,10 @@
 ### JUnit
 
 - [JUnit 을 이용한 테스트 시 추가 정보 출력을 위한 Gradle 설정 방법](./info/JUnit/JUnit%20을%20이용한%20테스트%20시%20추가%20정보%20출력을%20위한%20Gradle%20설정%20방법.md)
+
+### Mockito
+
+- [Mockito 사용시 void method mocking 방법 with Spring 예제](./info/Mockito/Mockito%20사용시%20void%20method%20mocking%20방법%20with%20Spring%20예제.md)
 
 ### Spring
 
