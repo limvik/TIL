@@ -19,6 +19,7 @@
 
 - [JUnit](#junit)
 - [Mockito](#mockito)
+- [Rust](#rust)
 - [Spring](#spring)
 
 ---
@@ -30,6 +31,10 @@
 ### Mockito
 
 - [Mockito 사용시 void method mocking 방법 with Spring 예제](./info/Mockito/Mockito%20사용시%20void%20method%20mocking%20방법%20with%20Spring%20예제.md)
+
+### Rust
+
+- [WSL(Windows Subsystem for Linux)에서 Rust 설치 방법](./info/Rust/WSL에서%20Rust%20설치%20방법.md)
 
 ### Spring
 
