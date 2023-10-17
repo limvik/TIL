@@ -17,12 +17,17 @@
 
 ### Categories
 
+- [HTTP](#http)
 - [JUnit](#junit)
 - [Mockito](#mockito)
 - [Rust](#rust)
 - [Spring](#spring)
 
 ---
+
+### HTTP
+
+- [유효성 검사 실패 시 400(Bad Request)? 아니면 422(Unprocessable Entity)?](./info/HTTP/유효성%20검사%20실패%20시%20400?%20422?.md)
 
 ### JUnit
 
