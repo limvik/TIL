@@ -27,7 +27,7 @@
 
 ### HTTP
 
-- [유효성 검사 실패 시 400(Bad Request)? 아니면 422(Unprocessable Entity)?](./info/HTTP/유효성%20검사%20실패%20시%20400?%20422?.md)
+- [유효성 검사 실패 시 400(Bad Request)? 아니면 422(Unprocessable Entity)?](./info/HTTP/유효성%20검사%20실패%20시%20400일까%20422일까.md)
 
 ### JUnit
 
