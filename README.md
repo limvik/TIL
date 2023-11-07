@@ -18,6 +18,7 @@
 ### Categories
 
 - [HTTP](#http)
+- [JPA](#jpa)
 - [JUnit](#junit)
 - [Mockito](#mockito)
 - [Rust](#rust)
@@ -28,6 +29,10 @@
 ### HTTP
 
 - [유효성 검사 실패 시 400(Bad Request)? 아니면 422(Unprocessable Entity)?](./info/HTTP/유효성%20검사%20실패%20시%20400일까%20422일까.md)
+
+### JPA
+
+- [Spring Data JPA 사용 시 Pageable 인스턴스 직접 생성 방법](./info/JPA/Pageable%20인스턴스%20직접%20생성%20방법.md)
 
 ### JUnit
 
