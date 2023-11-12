@@ -53,3 +53,4 @@
 - [Spring @WebMvcTest 사용 시 JacksonTester 사용방법](./info/Spring/Spring%20@WebMvcTest%20사용%20시%20JacksonTester%20사용방법.md)
 - [Spring Boot에서 사용할 CSV parsing 라이브러리 살펴보기](./info/Spring/Spring%20Boot%20-%20CSV%20parsing%20라이브러리.md)
 - [Spring Boot Test - MultipartFile Mocking 방법](./info/Spring/Spring%20Boot%20Test%20-%20MultipartFile%20Mocking%20방법.md)
+- [Spring Boot Test - TestRestTemplate 사용 시 cannot retry due to server authentication, in streaming mode 오류 해결방법](./info/Spring/Spring%20Boot%20Test%20-%20TestRestTemplate%20오류.md)
