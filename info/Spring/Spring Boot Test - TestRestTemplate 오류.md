@@ -2,15 +2,25 @@
 
 ## 상황
 
-TestRestTemplate 사용 시 아래와 같은 오류가 발생하였습니다.
+TestRestTemplate를 사용하여 401(Unauthorized)를 반환하는 요청에 대한 엔드포인트를 테스트하고 있었습니다.
 
-cannot retry due to server authentication, in streaming mode
+그런데 HttpRetryException이 던져지고, 아래와 같은 오류가 발생하였습니다.
+
+> cannot retry due to server authentication, in streaming mode
 
 ## 이유
 
-구체적인 이유는 찾지 못했지만, TestRestTemplate 에서 사용하는 HTTP 요청을 수행하는 클래스가 401 응답을 잘 처리하지 못하는 것으로 보입니다.
+TestRestTemplate은 HTTP 연결 시 Native Java API인 `HttpURLConnection`을 사용합니다. 기본적으로 Streaming Mode를 사용하여 HTTP 요청에 대한 응답을 버퍼에 저장하지 않고 즉시 처리합니다.
 
-특히 body 부분을 접근할 때 문제가 생깁니다. body 없이 응답을 보내면 오류가 없습니다.
+API 문서를 참조해보면, 아래와 같이 authentication 이나 redirection이 필요한 경우, 응답을 읽으려고 할 때 `HttpRetryException`이 던져짐을 언급하고 있습니다.
+
+> A HttpRetryException will be thrown when reading the response if authentication or redirection are required.
+
+401(Unauthorized)를 반환하는 경우 인증이 필요한 상황이고 response body에 접근하는 경우 HttpRetryException이 던져집니다.
+
+- 참고자료
+  - https://bugs.openjdk.org/browse/JDK-8118819?page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel&showAll=true
+  - https://docs.oracle.com/javase/8/docs/api/java/net/HttpURLConnection.html#setFixedLengthStreamingMode-long-
 
 ## 해결방법
 
