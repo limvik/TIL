@@ -17,6 +17,7 @@
 
 ### Categories
 
+- [GitHub](#github)
 - [HTTP](#http)
 - [JPA](#jpa)
 - [JUnit](#junit)
@@ -25,6 +26,10 @@
 - [Spring](#spring)
 
 ---
+
+### GitHub
+
+- [GitHub Actions Workflow 통과여부 뱃지 추가 방법](./info/GitHub/GitHub%20Actions%20Workflow%20통과여부%20뱃지%20추가%20방법.md)
 
 ### HTTP
 
